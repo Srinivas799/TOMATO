@@ -1,0 +1,368 @@
+.one{
+	background-image:url('images/1.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:45%;
+	width:100%;	
+}
+.one1{
+	background-image:url('images/13.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:45%;
+	width:100%;	
+}
+.two{
+	font-family:Lucida Calligraphy;
+	position:static;
+}
+.clr{
+	text-decoration:none;
+}
+.titl{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	-webkit-box-align: center;
+	bottom: calc(50% - 5.1rem);
+	-webkit-box-pack: center;
+	margin-left:35%;
+}
+.three{
+	width:50%;
+}
+.three1{
+	width:30%;
+}
+.three4{
+	
+}
+.second{
+	height:55%;
+	width:100%;
+	position:relative;
+	background-size:100%;
+	border-style:solid;
+	border-color:white;
+	background-color:#1111;
+}
+.third{
+	height:53%;
+	width:100%;
+	position:relative;
+	background-size:100%;
+	border-style:solid;
+	border-color:white;
+	background-color:#1121;
+}
+.third2{
+	height:80%;
+	width:100%;
+	position:relative;
+	background-size:100%;
+	border-style:solid;
+	border-color:white;
+	background-color:#1121;
+}
+.third1{
+	background-image: url('images/2.jpg');
+	width:80%;
+	height:210;
+	background-repeat:no-repeat;
+	border-style:solid;
+	border-color:black;
+	border-radius:10px;
+	border-width:2px;
+	transition:0.5s;
+	transform:scale(1);
+	
+}
+.third1:hover{
+	background-image: url('images/2.jpg');
+	width:80%;
+	height:210;
+	background-repeat:no-repeat;
+	border-style:solid;
+	border-color:black;
+	border-radius:10px;
+	border-width:2px;
+	transition:0.5s;
+	transform:scale(1.03);
+	box-shadow:0 20px 20px 0 rgba(0, 0, 0, 10), 0 20px 20px 0 rgba(0, 0, 0, 9);	
+}
+.four{
+	height:50%;
+	width:100%;
+	background-size:100%;
+	background-color:#fff8ee;
+	position:relative;
+}
+.four1{
+	height:300;
+	widht:100;
+	background-repeat:no-repeat;
+	background-size:contain;
+	position:flex;
+	margin-left:10%;	
+}
+.ten{
+	border-style:solid;
+	border-color:#fff8ee;
+	background-color:#fff8ee;
+	width:100%;
+	height:58%;
+}
+.ten1{
+	margin-left:54%;
+	font-size:40;
+	
+}
+.ten2{
+	margin-left:54%;
+	font-size:20;
+	line-height:0.1;
+}
+.ten3{
+	width:15%;
+	height:22%;
+	padding:15;
+	float:left;
+}
+.ten4{
+	width:15%;
+	height:22%;
+	padding:15;
+}
+.middle{
+	line-height:0.1;
+	width:auto;
+	height:60%;	
+}
+.middle1{
+	background-image: url('images/4.jpg');
+	width:20%;
+	height:70%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-width:1px;
+	border-radius:8px;
+	float:left;	
+}
+.middle2{
+	background-image: url('images/1.png');
+	width:20%;
+	height:70%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:25;
+	border-width:1px;
+	border-radius:8px;
+}
+.middle3{
+	background-image: url('images/1.webp');
+	width:20%;
+	height:70%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:25;
+	border-width:1px;
+	border-radius:8px;
+}
+.middle4{
+	background-image: url('images/2.jpg');
+	width:20%;
+	height:70%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:25;
+	border-width:1px;
+	border-radius:8px;
+}
+.foot{
+	width:100%;
+	height:40%;
+	background-color:#8888;
+	background-size:100%;
+	position:absolute;
+	padding-top:12;
+}
+.five{
+	margin-top:5%;
+}
+.five1{
+	margin-left:20%;
+}
+.five2{
+	position:fixed;
+}
+.log-one{
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	height:75%;
+	position:relative;
+}
+.back-video{
+	position:absolute;
+	right:0;
+	bottom:0;
+	z-index:-1;
+}
+@media(min-aspect-ratio: 16/9){
+	.back-video{
+		width:100%;
+		height:auto;
+	}
+}
+.log-two{
+	border-color:none;
+	background-color:transprant;
+	border-radius:10px;
+	width:30%;
+	height:62%;
+	margin-left:28%;
+	margin-top:5%;
+	box-shadow: 0 4px 8px 15px rgba(5, 0, 3, 0.2), 3px 8px 20px 0 rgba(1, 0, 0, 0.19);
+	position:absolute;	
+}
+.log-two2{
+	width:70%;
+	height:10%;
+	margin-left:15%;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	display:block;
+	background-color:none;
+	fill: none;
+      background: transparent;
+	border-color:white;
+	color:white;
+}
+.log-foot{
+	width:100%;
+	height:25%;
+	background-color:#8888;
+	background-size:100%;
+	position:absolute;
+	padding-top:12;
+}
+.sign-two{
+	border-color:none;
+	background-color:transprant;
+	border-radius:10px;
+	width:30%;
+	height:83%;
+	margin-left:28%;
+	margin-top:5%;
+	box-shadow: 0 4px 8px 15px rgba(5, 0, 3, 0.2), 3px 8px 20px 0 rgba(1, 0, 0, 0.19);
+	position:absolute;	
+}
+.sign-two2{
+	width:70%;
+	height:7%;
+	margin-left:15%;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	display:block;
+	background-color:none;
+	fill: none;
+      background: transparent;
+	border-color:white;
+	color:white;
+}
+.addrtarnt-one{
+	overflow:hidden;
+	background-image: url('images/2.webp');
+	width:100%;
+	height:70%;
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:static;
+	background-color:#fff8ee;
+}
+.titl-one{
+	color:white;
+	margin-top:10%;
+	margin-left:9%;
+}
+.titl-one1{
+	margin-left:15%;
+	margin-top:3%;
+}
+.titl-txt{
+	float:left;
+	margin-left:3%;
+	font-size:20;
+	border-style:solid;
+	border-radius:5px;
+	background-color:#1569c7;
+	border-color:#1569c7;
+	padding:10;
+}
+.box{
+	background-color:#fff8ee;
+	width:100%;
+	height:55%;
+	position:relative;
+}
+.box1{
+	position:relative;
+	margin-top:5%;
+	margin-left:15%;
+	color:black;
+	text-align:center;
+	font-size:20;
+	padding:12px 15px;
+	border-radius:10px;
+	border-color:black;
+	background-color:white;
+	border-style:solid;
+	border-width:1px;
+	width:auto;
+	height:auto;
+	line-height:1;
+	float:left;
+}
+.dvson-three{
+	background-color:#0001;
+	width:100%;
+	height:60%;
+	position:relative;
+}
+.rst-foot{
+	width:100%;
+	height:35%;
+	background-color:#8888;
+	background-size:100%;
+	position:absolute;
+	padding-top:12;
+}
+.contact-one{
+	overflow:hidden;
+	background-image: url('images/12.jpg');
+	width:100%;
+	height:40%;
+	background-repeat:no-repeat;
+	position:relative;
+	background-size:100%;	
+}
+.contact-two{
+	width:100%;
+	height:95%;
+	position:relative;
+	background-color:#0001;
+}
+.contact-foot{
+	width:100%;
+	height:35%;
+	background-color:#8888;
+	background-size:100%;
+	position:absolute;
+	padding-top:12;
+}
